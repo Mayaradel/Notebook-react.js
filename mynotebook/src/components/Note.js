@@ -9,4 +9,5 @@ const Note = ({ note, onDelete }) => (
   </div>
 );
 
+
 export default Note;

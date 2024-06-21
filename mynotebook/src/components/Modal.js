@@ -5,6 +5,7 @@ import './styles.css';
 const Modal = ({ isOpen, onClose, onSave, noteText, setNoteText }) => {
     if (!isOpen) return null;
 
+    
     return (
         <div className="modal-overlay">
             <div className="modal">

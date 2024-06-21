@@ -19,6 +19,8 @@ const Notebook = () => {
     setNotes([...notes, newNote]);
     setNoteText('');
     setIsModalOpen(false);
+
+    
   };
 
   const deleteNote = (id) => {
